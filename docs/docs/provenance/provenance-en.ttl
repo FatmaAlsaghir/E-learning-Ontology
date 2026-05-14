@@ -1,0 +1,11 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://www.example.org/elearning-ontology/2.0> a prov:Entity;
+	 dc:title "E-Learning Ontology";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:wasGeneratedAt "Date created";
+.
+:agent0 a prov:Agent; foaf:name "Fatma Alsaghir (220315105), Jalil Guliyev (220315102), Mahammadali Aliyev (220315090), Heydar Mehdizade (220315091)".
