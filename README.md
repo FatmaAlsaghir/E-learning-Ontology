@@ -1,35 +1,72 @@
-# E-Learning System Ontology
+# E-Learning Ontology
 
-This repository contains the Phase 2 ontology engineering project developed for the course:
+## Project Overview
 
-**CSE 3226 – Knowledge Engineering and Ontologies**  
-Computer Engineering Department  
-Faculty of Engineering  
-Spring 2025–2026
+This repository contains the implementation and documentation of an E-Learning Ontology developed using Semantic Web technologies. The ontology models the main entities and relationships within an online learning environment, including students, instructors, courses, modules, assignments, submissions, grades, feedback, and learning objectives.
 
-## Project Description
-The project focuses on building a semantic ontology for an E-Learning System using OWL and RDF technologies. The ontology represents the relationships between students, instructors, courses, assignments, submissions, grades, and feedback within an academic environment.
+The project was developed using ontology engineering principles to provide a structured and machine-readable representation of an e-learning system.
 
-The system was modeled and extended using ontology engineering principles and Semantic Web technologies.
+## Objectives
 
-## Project Components
-- OWL/RDF ontology
-- Knowledge graph structure
-- Ontology visualization using WebVOWL
-- Ontology documentation using Widoco
-- SPARQL query support
-- Research integration with ontology population using LLMs
+The main objectives of this project are:
+
+* Design an ontology for an e-learning environment.
+* Model academic entities and their relationships.
+* Build a knowledge graph using OWL and RDF.
+* Support semantic querying through SPARQL.
+* Validate ontology constraints using SHACL.
+* Generate ontology documentation using WIDOCO.
+
+## Repository Contents
+
+```text
+ontology/       -> OWL ontology files
+rdf/            -> RDF/Turtle files
+shacl/          -> SHACL validation files
+sparql/         -> SPARQL queries
+docs/           -> WIDOCO documentation
+report/         -> Final project report
+presentation/   -> Project presentation slides
+
+
+## Ontology Scope
+
+The ontology includes concepts related to:
+
+* Students
+* Instructors
+* Courses
+* Modules
+* Learning Objectives
+* Assignments
+* Submissions
+* Grades
+* Feedback
+
+These concepts are connected through object and data properties that describe academic activities and learning processes.
 
 ## Tools and Technologies
-- Protégé
-- OWL
-- RDF
-- SPARQL
-- WebVOWL
-- Widoco
-- GitHub
 
-## Authors
-- Fatma Alsaghir
+* Protégé
+* OWL 2
+* RDF/RDFS
+* SPARQL
+* SHACL
+* WebVOWL
+* WIDOCO
+* GitHub
+
+## Documentation
+
+The ontology documentation was generated using WIDOCO and is available in the documentation folder.
+
+## Team Members
+
+* Fatma Alsaghir
+* Jalil Guliyev
+* Mahammadali Aliyev
+* Heydar Mehdizade
+
 ## Academic Use
-This repository was created for academic and educational purposes as part of the Knowledge Engineering and Ontologies course project.
+
+This repository was developed as part of a Knowledge Engineering and Ontologies project and is intended for educational and research purposes.
