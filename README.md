@@ -27,7 +27,7 @@ sparql/         -> SPARQL queries
 docs/           -> WIDOCO documentation
 report/         -> Final project report
 presentation/   -> Project presentation slides
-
+```
 
 ## Ontology Scope
 
@@ -63,10 +63,7 @@ The ontology documentation was generated using WIDOCO and is available in the do
 ## Team Members
 
 * Fatma Alsaghir
-* Jalil Guliyev
-* Mahammadali Aliyev
-* Heydar Mehdizade
-
+  
 ## Academic Use
 
 This repository was developed as part of a Knowledge Engineering and Ontologies project and is intended for educational and research purposes.
